@@ -29,5 +29,5 @@ jobs:
     - name: zip files in repo
       run: |
         ls
-        cd ~/wp
-        zip -r wikipathways-20241110-rdf-reactome.zip ~/download
+        cd wp
+        zip -r wikipathways-20241110-rdf-reactome.zip download
